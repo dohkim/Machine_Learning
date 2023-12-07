@@ -1,0 +1,16 @@
+K-Means: Inertia
+Inertia measures how well a dataset was clustered by K-Means. It is calculated by measuring the distance between each data point and its centroid, squaring this distance, and summing these squares across one cluster.
+
+A good model is one with low inertia AND a low number of clusters (K). However, this is a tradeoff because as K increases, inertia decreases.
+
+To find the optimal K for a dataset, use the Elbow method; find the point where the decrease in inertia begins to slow. K=3 is the “elbow” of this graph.
+
+
+https://www.kaggle.com/code/sohaibanwaar1203/beginner-k-means-heart-attack-analysis
+
+
+
+
+
+bic find proper k
+https://towardsdatascience.com/gaussian-mixture-model-clusterization-how-to-select-the-number-of-components-clusters-553bef45f6e4
